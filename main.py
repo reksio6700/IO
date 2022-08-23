@@ -85,7 +85,7 @@ class Menu(QDialog):
         super(Menu, self).__init__()
         loadUi("Menu.ui", self)
         self.Operacja_1_przycisk.clicked.connect(self.Operacja1)                                   # menu główne, przycisk 1
-        self.Operacja_2_przycisk.clicked.connect(self.Operacja2)                                    # menu główne, przycisk 2
+        self.Operacja_2_przycisk.clicked.connect(self.Operacja2)                                    # menu główne, przycisk 2ss
         self.Operacja_3_przycisk.clicked.connect(self.Operacja3)
     def Operacja1(self):
         Operacja_1_przycisk = Operacja1()
